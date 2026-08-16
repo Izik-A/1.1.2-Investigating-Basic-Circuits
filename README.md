@@ -16,7 +16,7 @@ By the end of this activity, you should be able to:
 
 ## Key Questions
 
-As you complete this activity, consider the following:
+As you complete this activity, consider the following questions:
 
 - What is an electrical circuit?
 - How can circuit components be arranged to achieve a desired result?
@@ -30,8 +30,8 @@ As you complete this activity, consider the following:
 
 - Breadboarding hardware or Digital MiniSystem (DMS)
 - Auto-ranging handheld digital multimeter (DMM)
-- Two 470 Ω resistors  
-  - Color code: yellow, violet, brown, gold/silver
+- Two 470 Ω resistors
+  - Color code: yellow, violet, brown, gold or silver
 - Two LEDs
 - Four 22-gauge solid wires
   - One red
@@ -42,15 +42,15 @@ As you complete this activity, consider the following:
 
 ## Safety and Measurement Notes
 
-- Turn off or disconnect power before changing wiring in a circuit.
-- Always include a current-limiting resistor in series with an LED.
+- Turn off or disconnect power before changing circuit wiring.
+- Always use a current-limiting resistor in series with an LED.
 - For voltage measurements:
   - Connect the black meter lead to the `COM` port.
   - Connect the red meter lead to the `VΩ` or `VΩmA` port.
-  - Set the auto-ranging DMM to **DC voltage** mode, typically marked `V⎓` or `VDC`.
-  - Place meter probes **in parallel** with the component or portion of the circuit being measured.
-- An auto-ranging meter selects its own measurement range. Allow the display a moment to stabilize before recording a value.
-- A negative voltage reading indicates that the red and black probes are reversed relative to the selected reference direction.
+  - Set the DMM to DC voltage mode, typically marked `V⎓`, `VDC`, or `V---`.
+  - Place the meter probes in parallel with the component or part of the circuit being measured.
+- Because your DMM is self-ranging, it automatically selects the best range. Wait for the displayed reading to stabilize before recording a measurement.
+- A negative voltage reading means the red and black probes are reversed relative to the direction selected as positive.
 
 ---
 
@@ -67,15 +67,14 @@ Construct the circuit shown below using one 470 Ω resistor and one LED.
 Pay attention to LED orientation:
 
 - The flat edge on the LED body identifies the **cathode**.
-- In the circuit diagram or photo, orient the LED with its flat edge/cathode toward ground.
+- Orient the LED with its flat edge, or cathode, toward ground.
 - Conventional current should flow from the 5 V rail, through the resistor and LED, to the 0 V/GND rail.
 
 ### Checkpoint
 
-- What is the role of the resistor in this circuit?
+**What is the role of the resistor in this circuit?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -87,11 +86,9 @@ Trace the path of conventional current through your circuit.
 
 ### Checkpoint
 
-- Describe the path of conventional current through the circuit.
-- How does the direction of electron flow compare with conventional current flow?
+**Describe the path of conventional current through the circuit. How does electron flow compare with conventional current flow?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -108,22 +105,21 @@ With the LED illuminated:
 
 ### Checkpoint
 
-- What does your observation tell you about diodes and LEDs?
+**What does your observation tell you about diodes and LEDs?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
 ## Step 4: Measure Circuit Voltage
 
-Set your auto-ranging DMM to **DC voltage** mode (`V⎓` or `VDC`).
+Set your auto-ranging DMM to DC voltage mode (`V⎓`, `VDC`, or `V---`).
 
 Measure the voltage across the resistor-and-LED combination:
 
 1. Place the red probe at the top of the resistor, nearest the 5 V rail.
 2. Place the black probe at the bottom of the LED, nearest ground.
-3. Allow the auto-ranging meter reading to stabilize.
+3. Allow the meter reading to stabilize.
 4. Record the measured voltage.
 5. Reverse the meter probes and record the new reading.
 
@@ -138,44 +134,40 @@ Measure the voltage across the resistor-and-LED combination:
 
 ### Checkpoint
 
-- What changed when you switched the meter leads?
-- Why did the magnitude of the voltage remain approximately the same?
+**What changed when you switched the meter leads? Why did the magnitude of the voltage remain approximately the same?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ### Voltage Reminder
 
 Voltage is a measure of electric potential difference. A component must have a potential difference across it in order to transfer energy or do work.
 
-\[
+$$
 \Delta V = V_f - V_i
-\]
+$$
 
-One volt means that one joule of energy is transferred for every coulomb of charge:
+One volt means one joule of energy is transferred for every coulomb of charge.
 
-\[
+$$
 1\text{ V} = 1\frac{\text{J}}{\text{C}}
-\]
+$$
 
 ---
 
 ## Step 5: Record an Accurate Voltage Measurement
 
-Because your DMM is auto-ranging, it automatically selects the most appropriate measurement range.
+Because your DMM is self-ranging, it automatically selects the most appropriate measurement range.
 
 1. Keep the meter in DC voltage mode.
 2. Hold the probes steadily across the resistor-and-LED combination.
 3. Wait for the reading to stabilize.
-4. Record the displayed value using an appropriate number of decimal places.
+4. Record the displayed value using the number of decimal places shown on the meter.
 
 ### Checkpoint
 
-- What voltage did the auto-ranging DMM display across the resistor-and-LED combination?
-- Why is it useful for a multimeter to select an appropriate range automatically?
+**What voltage did the auto-ranging DMM display across the resistor-and-LED combination? Why is it useful for a multimeter to select a measurement range automatically?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -185,7 +177,7 @@ With the DMM still set to DC voltage mode:
 
 1. Place the probes at opposite ends of the red wire.
 2. Record the voltage.
-3. Repeat for the black wire.
+3. Repeat the process for the black wire.
 
 | Wire | Measured Voltage |
 |---|---:|
@@ -194,10 +186,9 @@ With the DMM still set to DC voltage mode:
 
 ### Checkpoint
 
-- What do your measurements tell you about the voltage drop across a short connecting wire?
+**What do your measurements tell you about the voltage drop across a short connecting wire?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -207,9 +198,9 @@ In Step 4, you measured the voltage across the resistor and LED together.
 
 Now measure the voltage across each component separately:
 
-1. Measure voltage across the 470 Ω resistor.
-2. Measure voltage across the LED.
-3. Compare the two values to the supply voltage.
+1. Measure the voltage across the 470 Ω resistor.
+2. Measure the voltage across the LED.
+3. Compare the two values with the supply voltage.
 
 > **Image Placeholder:** Insert a photo or diagram showing voltage measurement across the resistor.
 
@@ -223,40 +214,37 @@ Now measure the voltage across each component separately:
 |---|---:|
 | 470 Ω resistor | ___ V |
 | LED | ___ V |
-| Resistor + LED | ___ V |
+| Resistor and LED combined | ___ V |
 
 ### Checkpoint
 
-- Before measuring the LED, predict its voltage. Was your prediction correct?
-- Why is a resistor necessary in this circuit?
-- How do the component voltages compare with the total supply voltage?
+**Before measuring the LED, predict its voltage. Was your prediction correct? Why is a resistor necessary in this circuit? How do the component voltages compare with the total supply voltage?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ### Ohm’s Law
 
-Ohm’s Law relates voltage, current, and resistance:
+Ohm’s Law relates voltage, current, and resistance.
 
-\[
+$$
 V = IR
-\]
+$$
 
 Assume the voltage across the 470 Ω resistor is approximately 3 V.
 
-\[
+$$
 I = \frac{V}{R}
-\]
+$$
 
-Calculate the conventional current through the resistor:
+Calculate the conventional current through the resistor.
 
-\[
-I = \frac{3\text{ V}}{470\ \Omega} = \underline{\hspace{2cm}}\text{ A}
-\]
+$$
+I = \frac{3\text{ V}}{470\ \Omega}
+$$
 
-\[
-I = \underline{\hspace{2cm}}\text{ mA}
-\]
+**Current in amperes:** ___ A
+
+**Current in milliamperes:** ___ mA
 
 In this circuit, current has only one path through the resistor and LED. Components arranged in a single path are connected **in series**.
 
@@ -276,18 +264,21 @@ Before building or measuring the circuit, make predictions.
 
 ### Predictions
 
-- What voltage do you expect across both resistors together?
-- What voltage do you expect across each resistor individually?
-- Why?
-- What is the equivalent resistance of two 470 Ω resistors in series?
+**What voltage do you expect across both resistors together? What voltage do you expect across each resistor individually? Explain your reasoning.**
 
-\[
-R_\text{eq} = R_1 + R_2
-\]
+> _Write your answer here._
 
-\[
-R_\text{eq} = 470\ \Omega + 470\ \Omega = \underline{\hspace{2cm}}\ \Omega
-\]
+**What is the equivalent resistance of two 470 Ω resistors in series?**
+
+$$
+R_{\text{eq}} = R_1 + R_2
+$$
+
+$$
+R_{\text{eq}} = 470\ \Omega + 470\ \Omega
+$$
+
+**Equivalent resistance:** ___ Ω
 
 ### Measurements
 
@@ -315,20 +306,17 @@ With both LEDs illuminated:
 
 ### Checkpoint
 
-- What happened when one LED was removed from the series circuit?
-- Why did this occur?
+**What happened when one LED was removed from the series circuit? Why did this occur?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 Next, try connecting three LEDs in series with the 5 V power source.
 
 ### Checkpoint
 
-- Why do you think the three LEDs do not illuminate?
+**Why do you think the three LEDs do not illuminate?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -348,11 +336,9 @@ With both LEDs illuminated:
 
 ### Checkpoint
 
-- What happens to the remaining LED when one LED branch is removed?
-- How is this different from the series circuit?
+**What happens to the remaining LED when one LED branch is removed? How is this different from the series circuit?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 Draw a circuit diagram for two 470 Ω resistors connected in parallel.
 
@@ -368,28 +354,33 @@ In a series circuit, all components carry the same current. In a parallel circui
 
 ### Checkpoint
 
-- What electrical quantity is the same across components connected in parallel?
+**What electrical quantity is the same across components connected in parallel?**
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 Use Ohm’s Law to calculate the current through each 470 Ω resistor in a parallel circuit connected to a 5 V source.
 
-\[
+$$
 I = \frac{V}{R}
-\]
+$$
 
-\[
-I_1 = \frac{5\text{ V}}{470\ \Omega} = \underline{\hspace{2cm}}\text{ A}
-\]
+$$
+I_1 = \frac{5\text{ V}}{470\ \Omega}
+$$
 
-\[
-I_2 = \frac{5\text{ V}}{470\ \Omega} = \underline{\hspace{2cm}}\text{ A}
-\]
+**Current through resistor 1:** ___ A
 
-\[
-I_\text{total} = I_1 + I_2 = \underline{\hspace{2cm}}\text{ A}
-\]
+$$
+I_2 = \frac{5\text{ V}}{470\ \Omega}
+$$
+
+**Current through resistor 2:** ___ A
+
+$$
+I_{\text{total}} = I_1 + I_2
+$$
+
+**Total current:** ___ A
 
 ---
 
@@ -401,36 +392,31 @@ Answer each question in complete sentences.
 
 Describe the correct placement of DMM leads when measuring voltage across a component. Include the settings and steps you use with an auto-ranging DMM to obtain a stable and precise voltage measurement.
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ## 2. Negative Voltage Readings
 
 If the multimeter displays a negative voltage value, what does that tell you about the orientation of the DMM leads relative to conventional current flow?
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ## 3. LED Characteristics
 
 LEDs and resistors both transfer electrical energy into other forms. What important characteristic makes an LED, as a diode, different from a resistor?
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ## 4. Series Circuits
 
 In your own words, describe what it means for components to be connected in series. Which characteristic do series components always have in common: voltage, current, or resistance?
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ## 5. Parallel Circuits
 
 In your own words, describe what it means for components to be connected in parallel. Which characteristic do parallel components have in common: voltage, current, or resistance?
 
-**Answer:**  
-> _Replace this text with your answer._
+> _Write your answer here._
 
 ---
 
@@ -440,24 +426,26 @@ In your own words, describe what it means for components to be connected in para
 
 How is equivalent resistance calculated for resistors connected in series?
 
-\[
-R_\text{eq} = R_1 + R_2 + R_3 + \dots
-\]
+$$
+R_{\text{eq}} = R_1 + R_2 + R_3 + \dots
+$$
 
-**Explanation:**  
-> _Replace this text with your explanation._
+> _Write your explanation here._
 
 ## Equivalent Resistance in Parallel
 
 How is equivalent resistance calculated for resistors connected in parallel?
 
-\[
-\frac{1}{R_\text{eq}} =
-\frac{1}{R_1} +
-\frac{1}{R_2} +
-\frac{1}{R_3} +
+$$
+\frac{1}{R_{\text{eq}}}
+=
+\frac{1}{R_1}
++
+\frac{1}{R_2}
++
+\frac{1}{R_3}
++
 \dots
-\]
+$$
 
-**Explanation:**  
-> _Replace this text with your explanation._
+> _Write your explanation here._
