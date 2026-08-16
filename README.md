@@ -60,7 +60,8 @@ As you complete this activity, consider the following questions:
 
 Construct the circuit shown below using one 470 Ω resistor and one LED.
 
-> **Image Placeholder:** Insert a photo or circuit diagram of the simple 5 V resistor-and-LED series circuit here.
+<img width="560" height="384" alt="image7" src="https://github.com/user-attachments/assets/7742999d-0dbe-4cb6-8c0a-1e4833646e3e" />
+
 
 <!-- IMAGE: Simple LED circuit with 5 V source, 470 Ω resistor, and LED -->
 
@@ -123,7 +124,8 @@ Measure the voltage across the resistor-and-LED combination:
 4. Record the measured voltage.
 5. Reverse the meter probes and record the new reading.
 
-> **Image Placeholder:** Insert a photo showing DMM probes placed across the resistor-and-LED combination.
+<img width="313" height="319" alt="image3" src="https://github.com/user-attachments/assets/8d8dc9e0-b0b5-4e41-80de-c415d57e8feb" />
+
 
 <!-- IMAGE: DMM measuring total voltage across resistor and LED -->
 
@@ -202,13 +204,8 @@ Now measure the voltage across each component separately:
 2. Measure the voltage across the LED.
 3. Compare the two values with the supply voltage.
 
-> **Image Placeholder:** Insert a photo or diagram showing voltage measurement across the resistor.
+<img width="584" height="379" alt="image5" src="https://github.com/user-attachments/assets/dddcce6f-ca97-4969-85be-9c3d2567f0a5" />
 
-<!-- IMAGE: DMM probes across 470 Ω resistor -->
-
-> **Image Placeholder:** Insert a photo or diagram showing voltage measurement across the LED.
-
-<!-- IMAGE: DMM probes across LED -->
 
 | Component | Measured Voltage |
 |---|---:|
@@ -256,7 +253,8 @@ In this circuit, current has only one path through the resistor and LED. Compone
 
 Build a circuit with two identical 470 Ω resistors connected in series.
 
-> **Image Placeholder:** Insert a circuit diagram or photo of two 470 Ω resistors connected in series.
+<img width="671" height="263" alt="image6" src="https://github.com/user-attachments/assets/30585fab-dc84-44c6-83c9-840e0d1f0afc" />
+
 
 <!-- IMAGE: Two-resistor series circuit -->
 
@@ -294,7 +292,8 @@ Use the auto-ranging DMM in DC voltage mode to measure the following:
 
 Build a series circuit with two LEDs and appropriate current-limiting resistance using a 5 V power source.
 
-> **Image Placeholder:** Insert a photo or diagram of two LEDs connected in series.
+<img width="782" height="435" alt="image4" src="https://github.com/user-attachments/assets/ee9b41ff-0b2b-42e5-a589-4922949dfe4c" />
+
 
 <!-- IMAGE: Two LEDs in series with resistor(s) and 5 V source -->
 
@@ -324,7 +323,8 @@ Next, try connecting three LEDs in series with the 5 V power source.
 
 Build a parallel circuit with two LED branches.
 
-> **Image Placeholder:** Insert a circuit diagram or photo of two LED branches connected in parallel.
+<img width="790" height="494" alt="image8" src="https://github.com/user-attachments/assets/0c2d3c80-4bc3-4b2e-a12d-479b04d76fca" />
+
 
 <!-- IMAGE: Two LEDs in parallel, each with appropriate current-limiting resistance -->
 
