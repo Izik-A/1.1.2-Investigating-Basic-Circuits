@@ -75,7 +75,7 @@ Pay attention to LED orientation:
 
 **What is the role of the resistor in this circuit?**
 
-> _Write your answer here._
+> to limit the amount of voltage going through the system to prevent too much from going 
 
 ---
 
@@ -89,7 +89,7 @@ Trace the path of conventional current through your circuit.
 
 **Describe the path of conventional current through the circuit. How does electron flow compare with conventional current flow?**
 
-> _Write your answer here._
+> _Write your answer her
 
 ---
 
