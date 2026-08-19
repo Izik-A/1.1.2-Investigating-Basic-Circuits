@@ -89,7 +89,7 @@ Trace the path of conventional current through your circuit.
 
 **Describe the path of conventional current through the circuit. How does electron flow compare with conventional current flow?**
 
-> _Write your answer her
+> it goes through the circuit and through two separate 470 ohm resistors before going through the led and providing power which then goes to the ground wire, completing the circuit. Electron flow compares to conventional current flow by them both going on opposite direction.
 
 ---
 
@@ -108,7 +108,7 @@ With the LED illuminated:
 
 **What does your observation tell you about diodes and LEDs?**
 
-> _Write your answer here._
+> That they operate through the amount of current and resistance in order for changes in the brightness to happen. 
 
 ---
 
@@ -131,14 +131,14 @@ Measure the voltage across the resistor-and-LED combination:
 
 | Measurement | Voltage |
 |---|---:|
-| Red probe at resistor top; black probe at LED bottom | ___ V |
-| Probes reversed | ___ V |
+| Red probe at resistor top; black probe at LED bottom | 1.877 V |
+| Probes reversed | -1.910 V |
 
 ### Checkpoint
 
 **What changed when you switched the meter leads? Why did the magnitude of the voltage remain approximately the same?**
 
-> _Write your answer here._
+> the voltage changed from positive and went negative but still in the same place somewhat. The magnitude of the voltage likely stayed the same due to the exact both meters were swapped out, causing a reversed charge to be read
 
 ### Voltage Reminder
 
@@ -169,7 +169,7 @@ Because your DMM is self-ranging, it automatically selects the most appropriate 
 
 **What voltage did the auto-ranging DMM display across the resistor-and-LED combination? Why is it useful for a multimeter to select a measurement range automatically?**
 
-> _Write your answer here._
+> 1.877 V. It is useful for a multimeter to do this as voltage and current constantly fluctuates.
 
 ---
 
@@ -183,14 +183,14 @@ With the DMM still set to DC voltage mode:
 
 | Wire | Measured Voltage |
 |---|---:|
-| Red wire | ___ V |
-| Black wire | ___ V |
+| Red wire | 3.537 V |
+| Black wire | 2.868 V |
 
 ### Checkpoint
 
 **What do your measurements tell you about the voltage drop across a short connecting wire?**
 
-> _Write your answer here._
+> it tells me how much voltage fluctuates even in a controlled closed circuit
 
 ---
 
@@ -209,15 +209,15 @@ Now measure the voltage across each component separately:
 
 | Component | Measured Voltage |
 |---|---:|
-| 470 Ω resistor | ___ V |
-| LED | ___ V |
-| Resistor and LED combined | ___ V |
+| 470 Ω resistor | 2.716 V |
+| LED | 1.909 V |
+| Resistor and LED combined | 4.625 V |
 
 ### Checkpoint
 
 **Before measuring the LED, predict its voltage. Was your prediction correct? Why is a resistor necessary in this circuit? How do the component voltages compare with the total supply voltage?**
 
-> _Write your answer here._
+> I predicted 3.1 Volts and got 4.625, meaning it was wrong. A resistor is nessecary for this circuit as without it, too much power would flow through and end up overcharging the led, causing it to get burnt out
 
 ### Ohm’s Law
 
@@ -239,9 +239,9 @@ $$
 I = \frac{3\text{ V}}{470\ \Omega}
 $$
 
-**Current in amperes:** ___ A
+**Current in amperes:** 0.03  A
 
-**Current in milliamperes:** ___ mA
+**Current in milliamperes:** 0.00 mA
 
 In this circuit, current has only one path through the resistor and LED. Components arranged in a single path are connected **in series**.
 
@@ -264,7 +264,7 @@ Before building or measuring the circuit, make predictions.
 
 **What voltage do you expect across both resistors together? What voltage do you expect across each resistor individually? Explain your reasoning.**
 
-> _Write your answer here._
+> 2.4 v. I expect a little less than 3 v due to the fact that  
 
 **What is the equivalent resistance of two 470 Ω resistors in series?**
 
@@ -338,7 +338,7 @@ With both LEDs illuminated:
 
 **What happens to the remaining LED when one LED branch is removed? How is this different from the series circuit?**
 
-> _Write your answer here._
+> nothing, as the led is in a separate route from the other. it is different as the power is split into two roads when the series circuit is one continuous circuit
 
 Draw a circuit diagram for two 470 Ω resistors connected in parallel.
 
@@ -356,7 +356,7 @@ In a series circuit, all components carry the same current. In a parallel circui
 
 **What electrical quantity is the same across components connected in parallel?**
 
-> _Write your answer here._
+> volts
 
 Use Ohm’s Law to calculate the current through each 470 Ω resistor in a parallel circuit connected to a 5 V source.
 
@@ -368,19 +368,19 @@ $$
 I_1 = \frac{5\text{ V}}{470\ \Omega}
 $$
 
-**Current through resistor 1:** ___ A
+**Current through resistor 1:** 0.07 A
 
 $$
 I_2 = \frac{5\text{ V}}{470\ \Omega}
 $$
 
-**Current through resistor 2:** ___ A
+**Current through resistor 2:** 0.07 A
 
 $$
 I_{\text{total}} = I_1 + I_2
 $$
 
-**Total current:** ___ A
+**Total current:** 0.14 A
 
 ---
 
@@ -392,31 +392,31 @@ Answer each question in complete sentences.
 
 Describe the correct placement of DMM leads when measuring voltage across a component. Include the settings and steps you use with an auto-ranging DMM to obtain a stable and precise voltage measurement.
 
-> _Write your answer here._
+> the positive needs to be as close to the voltage wire as possible, and the ground needs to be connected to ground to the component
 
 ## 2. Negative Voltage Readings
 
 If the multimeter displays a negative voltage value, what does that tell you about the orientation of the DMM leads relative to conventional current flow?
 
-> _Write your answer here._
+> red is connected to black, and black is to red.
 
 ## 3. LED Characteristics
 
 LEDs and resistors both transfer electrical energy into other forms. What important characteristic makes an LED, as a diode, different from a resistor?
 
-> _Write your answer here._
+> as it has not as much resistance as compared to a resistor.
 
 ## 4. Series Circuits
 
 In your own words, describe what it means for components to be connected in series. Which characteristic do series components always have in common: voltage, current, or resistance?
 
-> _Write your answer here._
+> when components are connected in series, they are connected directly in line, with the power sources flowing through the entire circuit straightforwardly and consistently have the same current throughout the circuit.
 
 ## 5. Parallel Circuits
 
 In your own words, describe what it means for components to be connected in parallel. Which characteristic do parallel components have in common: voltage, current, or resistance?
 
-> _Write your answer here._
+> Components connected in parallel is when the components split into two different "roads," in which the voltage is common.
 
 ---
 
